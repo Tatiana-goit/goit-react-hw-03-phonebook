@@ -1,0 +1,22 @@
+.list{
+padding: 20px 130px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.info {
+    width: 600px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    width: 230px;
+    font-size: 18px;
+    text-align: left;
+} 

@@ -1,0 +1,48 @@
+.container {
+    width: 800px;
+    min-height: 600px;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 5px 3px;
+    background-color: floralwhite;
+}
+
+h1,h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2 {
+    margin-top: 40px;
+
+
+}
+
+svg {
+    margin-right: 10px;
+}
+
+button {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 auto;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: rgba(65, 58, 58, 0.2) 0 0 5px 2px;
+    cursor: pointer;
+  }
+  
+button:hover{
+    box-shadow: 0 4px 15px 0 rgba(70, 73, 77, 0.75);
+  }
+
+
+  
+
+
