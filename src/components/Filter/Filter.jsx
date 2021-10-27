@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import s from './Filter.module.css';
 
-function Filter({ value, onChange }) {
+export default function Filter({ value, onChange }) {
   return (
     <div className={s.section}>
       <span className={s.text}> Фильтр по имени</span>
@@ -15,4 +15,3 @@ Filter.propTypes = {
   onChange: PropTypes.func.isRequired,
 };
 
-export default Filter;

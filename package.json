@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-03-phonebook-3",
+  "name": "goit-react-hw-04-hooks-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Tatiana-goit.github.io/goit-react-hw-03-phonebook",
+  "homepage": "https://Tatiana-goit.github.io/goit-react-hw-04-hooks-phonebook",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -25,8 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-	  "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

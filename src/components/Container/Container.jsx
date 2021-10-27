@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import s from './Container.module.css';
 
-function Container ({ children })  {
+export default function Container ({ children })  {
   return (
   <div className={s.container}>
     {children}
@@ -13,4 +13,3 @@ Container.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default Container;
